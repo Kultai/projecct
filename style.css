@@ -1,0 +1,150 @@
+h2 {
+  color: rgb(0, 0, 0);
+}
+a {
+  color: rgb(0, 0, 0);
+
+  text-decoration: none;
+
+  margin: 25px;
+}
+video {
+  width: 200px;
+  height: 500px;
+}
+h2 {
+  text-decoration: none;
+}
+body {
+  background-color: #abdee797;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.body7 {
+  background-image: url(/bdde32e10ec6c223f66846ba223ef076.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.azz {
+  background-image: url(/15fe597c3fe717de3169115be497ccf2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.body5 {
+  background-image: url(/c5fb81ffb6379e15d871c1078374f2b5.jpg);
+  background-size: no-repeat;
+  background-size: cover;
+}
+.Ali {
+  background-color: rgb(255, 255, 255);
+}
+table {
+  background: rgb(246, 246, 245);
+}
+th {
+  background: #c0bf6d97;
+  color: #ffffff;
+}
+
+th:hover {
+  background: #ff0000;
+  transition: 1s;
+}
+td:hover {
+  background: #a0b6f2;
+  transition: 1s;
+}
+.img2 {
+  width: 100px;
+  float: right;
+}
+menu {
+  text-align: center;
+}
+
+.img {
+  width: 200px;
+}
+.h11 {
+  text-align: center;
+  padding: px;
+  color: rgb(44, 97, 93);
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #1a1f1a;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 15px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
